@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern E-Commerce Product Catalog">
+    <meta name="keywords" content="E-Commerce, Shopping, Products, JavaScript, HTML, CSS">
+    <meta name="author" content="Aashritha Reddy">
+
+    <title>ShopEase | Home</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>🛍 ShopEase</h2>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html" class="active">Home</a></li>
+
+                <li><a href="products.html">Products</a></li>
+
+                <li><a href="wishlist.html">
+                    <i class="fa-solid fa-heart"></i>
+                    Wishlist
+                </a></li>
+
+                <li><a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                </a></li>
+
+            </ul>
+
+            <button id="themeBtn">
+                🌙
+            </button>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Discover Amazing Products</h1>
+
+            <p>
+                Shop the latest fashion, electronics,
+                accessories and much more.
+            </p>
+
+            <a href="products.html" class="btn">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <div class="feature">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <h3>Fast Delivery</h3>
+
+            <p>Delivery across India.</p>
+
+        </div>
+
+        <div class="feature">
+
+            <i class="fa-solid fa-shield-heart"></i>
+
+            <h3>Secure Payment</h3>
+
+            <p>100% Safe Transactions.</p>
+
+        </div>
+
+        <div class="feature">
+
+            <i class="fa-solid fa-rotate-left"></i>
+
+            <h3>Easy Returns</h3>
+
+            <p>7 Days Return Policy.</p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="categories">
+
+        <h2>Shop by Category</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Electronics</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-shirt"></i>
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-gem"></i>
+                <h3>Jewellery</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-person"></i>
+                <h3>Men's Wear</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURED PRODUCTS ================= -->
+
+    <section class="featured">
+
+        <h2>Featured Products</h2>
+
+        <div id="featuredProducts" class="product-grid">
+
+            <!-- JavaScript will load products here -->
+
+        </div>
+
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+        <h2>Subscribe</h2>
+
+        <p>Get updates on new arrivals and offers.</p>
+
+        <form>
+
+            <input
+            type="email"
+            placeholder="Enter your email"
+            required>
+
+            <button type="submit">
+                Subscribe
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+
+                <h3>ShopEase</h3>
+
+                <p>
+                    Modern E-Commerce Website built using
+                    HTML, CSS and JavaScript.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a><br>
+                <a href="products.html">Products</a><br>
+                <a href="wishlist.html">Wishlist</a><br>
+                <a href="cart.html">Cart</a>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>Email: aashrithareddyy19@gmail.com</p>
+
+                <p>Phone: +91 6303697613</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+            © 2026 ShopEase. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- ================= JS ================= -->
+<!-- ================= JavaScript ================= -->
+
+<script src="js/utils.js"></script>
+<script src="js/api.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
